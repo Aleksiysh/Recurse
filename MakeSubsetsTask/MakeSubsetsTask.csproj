@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC1A37FC-A6A3-4964-96DD-590DA63ED283}</ProjectGuid>
+    <ProjectGuid>{06454FFA-73D6-4A88-AAE7-0D6D8DA9C96B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Recursive</RootNamespace>
-    <AssemblyName>Recursive</AssemblyName>
+    <RootNamespace>MakeSubsetsTask</RootNamespace>
+    <AssemblyName>MakeSubsetsTask</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MakeSubsetsTask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

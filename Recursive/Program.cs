@@ -18,29 +18,30 @@ namespace Recursive
                 foreach (var e in subset)
                     Console.Write(e ? 1 : 0);
                 Console.Write(" OK");
-                
+
                 Console.WriteLine();
             }
         }
 
-        static void Main(string[] args)
-        {
-            Makesubsets(new bool[weigths.Length], 0);
-        }
-
-        static void Makesubsets(bool[] subset, int position)
-        {
-            if (position == subset.Length)
-            {
-                Evaluate(subset);
-                return;
+        //static void Makesubsets(bool[] subset, int position)
+        //{
+        //    if (position == subset.Length)
+        //    {
+        //        Evaluate(subset);
+        //        return;
 
 
-            }
-            subset[position] = false;
-            Makesubsets(subset, position + 1);
-            subset[position] = true;
-            Makesubsets(subset, position + 1);
-        }
+        //    }
+        //    subset[position] = false;
+        //    Makesubsets(subset, position + 1);
+        //    subset[position] = true;
+        //    Makesubsets(subset, position + 1);
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    Makesubsets(new bool[weigths.Length], 0);
+        //    Console.ReadKey();
+        //}
     }
 }
